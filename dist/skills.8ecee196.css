@@ -1,0 +1,34 @@
+.skills {}
+
+@media print {
+    #skills{display:none;}
+}
+
+
+.skills>.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills>.wrapper>:first-child {
+    margin-right: 24px;
+}
+
+.skills>.wrapper>#skills {}
+
+.skills>.wrapper>ul {
+    color: #666;
+}
+
+.skills>.wrapper strong {
+    color: #f60;
+    font-weight: normal;
+}
+
+.skills>.wrapper>ul>li {
+    line-height: 1.2;
+    margin-bottom: 8px;
+    list-style: disc inside;
+}
+
+/*# sourceMappingURL=/skills.8ecee196.css.map */

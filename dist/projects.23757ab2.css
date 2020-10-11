@@ -1,0 +1,29 @@
+.projects p {
+    color: #666;
+}
+
+.projects p strong {
+    font-weight: normal;
+    color: #f60;
+}
+
+.projects>ol {
+    margin-top: 0;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.projects>ol>li {
+    margin: 16px 0;
+}
+
+.projects>ol>li>header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects>ol>li h3 {
+    display: inline-block;
+}
+
+/*# sourceMappingURL=/projects.23757ab2.css.map */
