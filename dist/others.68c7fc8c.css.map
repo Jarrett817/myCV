@@ -1,0 +1,1 @@
+{"version":3,"sources":["others.css"],"names":[],"mappings":"AAAA,cACI,sBACJ","file":"others.68c7fc8c.css","sourceRoot":"..\\src","sourcesContent":[".others > ul > li {\r\n    list-style: disc inside;\r\n}"]}

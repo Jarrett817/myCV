@@ -1,1 +1,0 @@
-{"version":3,"sources":["style/certificate.css"],"names":[],"mappings":"AAAA;AACA;AACA","file":"certificate.9879ad72.css","sourceRoot":"..\\src","sourcesContent":[".certificate > ul > li {\r\n    list-style: disc inside;\r\n}"]}
