@@ -1,0 +1,32 @@
+.openSource {
+}
+
+.openSource > h2 {
+}
+
+.openSource header img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.openSource > ul {
+}
+
+.openSource > ul > li {
+    margin-bottom: 24px;
+}
+
+.openSource  p strong {
+    color: #05aea6;
+    font-weight: normal;
+}
+
+.openSource header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.openSource h3 {
+}

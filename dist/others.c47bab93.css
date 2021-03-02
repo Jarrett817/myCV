@@ -1,0 +1,9 @@
+.others > ul > li {
+    list-style: disc inside;
+}
+.others > ul >li strong{
+    color:#05aea6;
+    font-weight: normal;
+}
+
+/*# sourceMappingURL=/others.c47bab93.css.map */
