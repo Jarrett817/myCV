@@ -1,0 +1,30 @@
+.internExperience p {
+  color: #666;
+}
+
+.internExperience p strong {
+  font-weight: normal;
+  color: #05aea6;
+}
+
+.internExperience > ol {
+  margin-top: 0;
+  list-style-position: inside;
+  padding: 0;
+}
+
+.internExperience > ol > li {
+  margin: 16px 0;
+}
+
+.internExperience > ol > li > header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.internExperience > ol > li h3 {
+  display: inline-block;
+}
+
+
+/*# sourceMappingURL=/internExperience.04043384.css.map */
