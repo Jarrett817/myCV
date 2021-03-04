@@ -1,8 +1,4 @@
 .internExperience {
-  p strong {
-    font-weight: normal;
-    color: #05aea6;
-  }
   > ol {
     margin-top: 0;
     list-style-position: inside;
@@ -10,11 +6,9 @@
     > li {
       margin: 16px 0;
       > header {
-        > h4 {
-          display: flex;
-          justify-content: space-between;
-          margin: 4px 0;
-        }
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
       }
     }
   }

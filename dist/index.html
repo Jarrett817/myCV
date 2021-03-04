@@ -3,15 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
-    <link rel="stylesheet" href="/bio.86940116.css">
-    <link rel="stylesheet" href="/openSource.2ccf7a35.css">
-    <link rel="stylesheet" href="/projects.23757ab2.css">
-    <link rel="stylesheet" href="/reset.8f26026f.css">
-    <link rel="stylesheet" href="/skills.8ecee196.css">
-    <link rel="stylesheet" href="/others.c47bab93.css">
-    <link rel="stylesheet" href="/certificate.26a8cd14.css">
-    <link rel="stylesheet" href="/education.c506ea8d.css">
-    <link rel="stylesheet" href="/internExperience.7f927a72.css">
+    <link rel="stylesheet" href="/style.d9cbfdb6.css">
     <title>我的简历</title>
     <style media="print">body {
         margin: 0;
@@ -43,144 +35,161 @@
           flex-direction: column;
         }
       }</style>
-  <script src="/bio.86940116.js"></script><script src="/openSource.2ccf7a35.js"></script><script src="/projects.23757ab2.js"></script><script src="/reset.8f26026f.js"></script><script src="/skills.8ecee196.js"></script><script src="/others.c47bab93.js"></script><script src="/certificate.26a8cd14.js"></script><script src="/education.c506ea8d.js"></script><script src="/internExperience.7f927a72.js"></script></head>
+  <script src="/style.d9cbfdb6.js"></script></head>
 
   <body>
     <article>
       <section class="bio">
         <div>
-          <h2>王俊然</h2>
+          <h1>王俊然</h1>
           <img src="/photo.a2d58053.jpg" alt="">
         </div>
         <p>
-          电话：<a href="tel:13516724981">135-1672-4981</a> | 微信：13867223154
-          | 邮箱：<a href="mailto:jrwang0817@163.com">jrwang0817@163.com</a>
+          <a href="https://github.com/Jarrett817" target="_blank">GitHub</a>
+          <span class="column-line">|</span>
+          <a href="https://www.yuque.com/jarrett-p3yai/kg62ge" target="_blank">语雀</a>
+          <span class="column-line">|</span>
+          <a href="https://juejin.cn/user/3940246036687774/posts" target="_blank">掘金</a>
+        </p>
+        <p>
+          浙江大学城市学院 <span class="column-line">|</span> 本科
+          <span class="column-line">|</span> 通信工程
+        </p>
+        <p>
+          电话：<a href="tel:13516724981">135-1672-4981</a>
+          <span class="column-line">|</span> 微信：13867223154
+          <span class="column-line">|</span> 邮箱：<a href="mailto:jrwang0817@163.com">jrwang0817@163.com</a>
         </p>
       </section>
-
+      <div class="head-line"></div>
       <section class="internExperience">
-        <h3>实习经历</h3>
+        <h2>实习经历</h2>
         <ol>
           <li>
             <header>
-              <h4><strong>个推</strong>2020.11-至今</h4>
               <h4>数据部 前端开发实习生</h4>
+              <h4>2020.11-至今</h4>
+              <h4>个推</h4>
             </header>
-            <p>
-              1.
-              参与公司标签平台项目的开发，与后端、测试、UI、产品对接，在理解业务的基础上，进行功能的开发和bug修复，参与完成五个迭代
-            </p>
-
-            <p>2. 在组内完成一次关于浏览器渲染原理的分享，受到好评</p>
-            <p>
-              3.
-              积极遵守组内代码规范、格式规范、git提交规范，撰写结构化、易维护、可拓展的代码，并能够持续跟进优化
-            </p>
+            <ul>
+              <li>参与公司标签平台项目的开发，与后端、测试、UI、产品对接，在理解业务的基础上，进行功能的开发和bug修复，参与五个迭代
+              </li>
+              <li>积极遵守组内代码规范、格式规范、git提交规范，撰写结构化、易维护、可拓展的代码，并能够持续跟进优化
+              </li>
+              <li>在组内完成一次关于浏览器渲染原理的分享</li>
+            </ul>
           </li>
         </ol>
       </section>
+      <div class="split-line"></div>
+
       <section class="projects">
-        <h3>项目经历</h3>
+        <h2>项目经历</h2>
         <ol>
           <li>
             <header>
-              <h4><strong>数据智能标签平台（公司内部项目）</strong></h4>
+              <h4>数据智能标签平台（公司内部项目）</h4>
             </header>
             <p>
-              1.
               面向分析师的数据智能平台中的标签平台，通过对数据进行标签化的生产管理以及用户画像、
               数据洞察等手段，帮助企业发现问题、提高效益
             </p>
-            <p>
-              2. 抽象出通用业务组件如ecahrts图表渲染组件、可配置详情面板、
-              可配置信息栏、级联下拉框、简洁翻页器、日期选择器等等，作为高频出现的组件极大的提高了开发效率
-            </p>
-            <p>
-              3.
-              使用工厂模式维护一套echarts配置项，针对业务中高频用到的热力图、象形图、饼图、条形图、柱状图、折线柱形混合图表等图表配置项进行整理，
-              能够“一键”生成基础图表，支持图表定制、图表组合，同时实现了业务逻辑与样式分离，
-              解决了项目场景中中多图表、toolTip定制化且与图表外部数据交杂的问题，提高了代码复用率
-            </p>
+            <ul>
+              <li>
+                抽象出通用业务组件如ecahrts图表渲染组件、可配置详情面板、
+                可配置信息栏、级联下拉框、简洁翻页器、日期选择器等等，作为高频出现的组件极大的提高了开发效率
+              </li>
+              <li>
+                使用工厂模式维护一套echarts配置项，针对业务中高频用到的<strong>热力图、象形图、饼图、条形图、柱状图、折线柱形混合图表</strong>等图表配置项进行整理，
+                能够“一键”生成基础图表，便于<strong>图表定制、图表组合</strong>，同时实现了业务逻辑与样式分离，
+                解决了项目场景中多图表、toolTip定制化、多样化且与图表外部数据交杂的问题，提高了代码复用率
+              </li>
+            </ul>
           </li>
           <li>
             <header>
-              <h4><strong>记了个账 Vue 版</strong></h4>
+              <h4>iAccounts Vue3 版</h4>
               <span>
-                <a href="https://github.com/Jarrett817/money-lover" target="_blank">源码地址</a>
-                <a href="http://jarrett0817.gitee.io/money-lover-website" target="_blank">项目预览</a>
+                <a href="https://github.com/Jarrett817/money-lover_vue3" target="_blank">源码</a>
+                <a href="https://modao.cc/app/70d1df3f41666d3c9917f6e233d472c5a1b4e3e5?simulator_type=outside_artboard&sticky" target="_blank">原型</a>
               </span>
             </header>
             <p>
-              1. 一个基于 <strong>Vue</strong> / <strong>VueRouter</strong> /
+               一个基于 <strong>Vue3</strong> / <strong>VueRouter</strong> /
+              <strong>Vuex</strong> / <strong>Vite</strong> / <strong>Axios</strong> /
+              <strong>Vant UI</strong> /
+              <strong>TypeScript</strong> 的记账应用
+            </p>
+            <ul>
+              <li>将会具备记账、账单管理、标签管理及账单数据可视化功能</li>
+              <li>
+              持续制作中
+              </li>
+            </ul>
+          </li>
+          <li>
+            <header>
+              <h4>iAccounts Vue2 版</h4>
+              <span>
+                <a href="https://github.com/Jarrett817/money-lover" target="_blank">源码</a>
+                <a href="http://jarrett0817.gitee.io/money-lover-website" target="_blank">预览</a>
+              </span>
+            </header>
+            <p>
+              使用 <strong>Vue2</strong> / <strong>VueRouter</strong> /
               <strong>Vuex</strong> /
-              <strong>TypeScript</strong> 的单页面记账应用，使用Scss编写样式
+              <strong>TypeScript</strong> 制作的版本
             </p>
-            <p>
-              2. 主要功能包括记账、标签管理、账单明细及图表概览，localStorage
-              实现数据的本地存储
-            </p>
-            <p>
-              3.
+            <ul>
+              <li>主要功能包括记账、标签管理、账单明细及图表概览</li>
+              <li>
               使用了vue基于类的API及vue的装饰器写法，并借助了eCharts展示每月收支情况
-            </p>
+              </li>
+            </ul>
           </li>
           <li>
             <header>
-              <h4><strong>记了个账 React 版</strong></h4>
+              <h4>iAccounts React 版</h4>
               <span>
-                <a href="https://github.com/Jarrett817/monry-lover-react" target="_blank">源码地址</a>
-                <a href="http://jarrett0817.gitee.io/money-lover-react-website" target="_blank">项目预览</a>
+                <a href="https://github.com/Jarrett817/monry-lover-react" target="_blank">源码</a>
+                <a href="http://jarrett0817.gitee.io/money-lover-react-website" target="_blank">预览</a>
               </span>
             </header>
-            <p>
-              1. 基于 <strong>React</strong> / <strong>React Router</strong> /
-              <strong>TypeScript</strong> 的简版 ”记了个账“
-            </p>
-            <p>2. 专注于记账和账单查看，localStorage 实现数据的本地存储</p>
-            <p>3. 使用了 State、Effect Hook 及自定义 Hook</p>
+            <p>使用 <strong>React</strong> / <strong>React Router</strong> /
+              <strong>TypeScript</strong> 制作的版本</p>
+            <ul>
+              <li>使用了 State、Effect Hook 及自定义 Hook<p></p>
+              </li>
+            </ul>
           </li>
           <li>
             <header>
-              <h4><strong>Lazyer UI</strong></h4>
+              <h4>Lazyer UI</h4>
               <span>
-                <a href="https://github.com/Jarrett817/lazyer-ui" target="_blank">源码地址</a>
-                <a href="http://jarrett0817.gitee.io/lazyer-ui-website" target="_blank">项目预览</a>
+                <a href="https://github.com/Jarrett817/lazyer-ui" target="_blank">源码</a>
+                <a href="http://jarrett0817.gitee.io/lazyer-ui-website" target="_blank">预览</a>
               </span>
             </header>
             <p>
-              1. 使用 <strong>Vue3</strong> / <strong>TypeScript</strong> 的自制
+              使用 <strong>Vue3</strong> / <strong>TypeScript</strong> 的自制
               UI 库
             </p>
-            <p>
-              2.
-              实现了按钮、开关、弹出框、标签页、下拉菜单等常见组件，后续会持续制作更多组件
-            </p>
-            <p>
-              3. 使用了 vue3 的<strong> Composition API</strong>，setup、onMounted、watchEffect、ref、computed等
-            </p>
-            <p>
-              4. 自制了官网，对每个组件用例进行介绍和展示，官网适配PC及移动端
-            </p>
+            <ul>
+              <li>目前实现了按钮、开关、弹出框、标签页、下拉菜单等基础组件
+              </li>
+              <li>使用了 vue3 的<strong> Composition API</strong>，setup、onMounted、watchEffect、ref、computed等
+              </li>
+              <li>自制了官网，对每个组件用例进行介绍和展示，官网适配PC及移动端
+              </li>
+            </ul>
           </li>
-          <li>
-            <header>
-              <h4><strong>seeker导航</strong></h4>
-              <span>
-                <a href="https://github.com/Jarrett817/seeker-navigation" target="_blank">源码地址</a>
-                <a href="http://jarrett0817.gitee.io/seeker-navigation/" target="_blank">项目预览</a>
-              </span>
-            </header>
-            <p>1. 使用 <strong>jQuery</strong> 做的导航网站。</p>
-            <p>
-              2.
-              实现了搜索栏跳转，及对网址的增删改操作，实现了键盘事件打开对应网址的功能。
-            </p>
-          </li>
+          
         </ol>
       </section>
+      <div class="split-line"></div>
 
-      <section class="skills">
-        <h3>技能</h3>
+      <section class="skills page2">
+        <h2>技能</h2>
         <div class="wrapper">
           <ul>
             <li>
@@ -199,48 +208,48 @@
           </ul>
         </div>
       </section>
+      <div class="split-line"></div>
 
-      <section class="others">
-        <h3>博客/主页</h3>
-        <ul>
-          <li>
-            <a href="https://juejin.im/user/3940246036687774/posts" target="_blank"><strong>我的博客</strong></a>，目前有40余篇文章
-          </li>
-          <li>
-            <a href="https://github.com/Jarrett817" target="_blank"><strong>我的 GitHub</strong></a>，过去三个月提交次数超300次
-          </li>
-        </ul>
-      </section>
-      <section class="openSource page2">
-        <h3>开源项目</h3>
-        <ul>
+      <section class="openSource ">
+        <h2>开源项目</h2>
+        <ol>
           <li>
             <header>
-              <h4><strong>画一只猫咪老师</strong></h4>
+              <h4>seeker导航</h4>
               <span>
-                <a href="https://github.com/Jarrett817/madara-cat" target="_blank">源码地址</a>
-                <a href="http://jarrett0817.gitee.io/madara-cat" target="_blank">项目预览</a>
+                <a href="https://github.com/Jarrett817/seeker-navigation" target="_blank">源码</a>
+                <a href="http://jarrett0817.gitee.io/seeker-navigation/" target="_blank">预览</a>
+              </span>
+            </header>
+            <p>使用 <strong>jQuery</strong> 做的导航网站。</p>
+            <p>
+              实现了搜索栏跳转，及对网址的增删改操作，实现了键盘事件打开对应网址的功能。
+            </p>
+          </li>
+          <li>
+            <header>
+              <h4>css画图</h4>
+              <span>
+                <a href="https://github.com/Jarrett817/madara-cat" target="_blank">源码</a>
+                <a href="http://jarrett0817.gitee.io/madara-cat" target="_blank">预览</a>
               </span>
             </header>
             <p>
-              1.
               使用js、css和<strong>webpack</strong>做的小作品，临摹出某动漫角色
             </p>
             <p>
-              2.
               实现了动态添加css并展示代码，具备调速、播放、暂停、重置的功能，并做了多端适配
             </p>
             <p>
-              3.
               使用webpack打包，并编写了可适配开发环境和生产环境的webpack配置文件
             </p>
           </li>
           <li>
             <header>
-              <h4><strong>旋转立方体</strong></h4>
+              <h4>旋转立方体</h4>
               <span>
-                <a href="https://github.com/Jarrett817/rotating-cube" target="_blank">源码链接</a>
-                <a href="http://jarrett0817.gitee.io/rotating-cube/" target="_blank">项目预览</a>
+                <a href="https://github.com/Jarrett817/rotating-cube" target="_blank">源码</a>
+                <a href="http://jarrett0817.gitee.io/rotating-cube/" target="_blank">预览</a>
               </span>
             </header>
             <p>
@@ -250,34 +259,34 @@
           </li>
           <li>
             <header>
-              <h4><strong>自制 DOM 库</strong></h4>
-              <a href="https://github.com/Jarrett817/dom-encapsulation/blob/master/src/dom.js" target="_blank">源码链接</a>
-            </header>
-            <p>实现了元素选择、元素创建、<strong>事件委托</strong>等常见功能</p>
-          </li>
-        </ul>
-      </section>
-
-      <section class="education">
-        <h3>教育经历</h3>
-        <span><time>2017年</time>~<time>至今</time></span>
-        <p>浙江大学城市学院 本科</p>
-        <p>通信工程</p>
-      </section>
-      <section class="education">
-        <h3>在校职务</h3>
-        <ul>
-          <li>
-            <header>
-              <h4><strong>信电分院二课管委会副主席</strong></h4>
+              <h4>旋转照片墙</h4>
+              <span>
+                <a href="https://github.com/Jarrett817/rotating-cube" target="_blank">源码</a>
+                <a href="https://jarrett817.github.io/rotating-cube/dist/" target="_blank">预览</a>
+              </span>
             </header>
             <p>
-              分管三个部门（19级、18级、高年级管委会），统筹分院内全年级二课活动的开展和学生个人素质分的管理评定
+              使用 <strong>css</strong> 制作的自行旋转展示的照片墙
+            </p>
+          </li>
+        </ol>
+      </section>
+      <div class="split-line"></div>
+
+      <section class="education">
+        <h2>在校经历</h2>
+        <ol>
+          <li>
+            <header>
+              <h4>信电分院二课管委会副主席</h4>
+            </header>
+            <p>
+              分管三个部门（19级、18级、高年级管委会），统筹分院内全年级二课活动的开展和学生个人素质分的管理评定。在职期间优化了监督审核工作流程，提高了部门工作效率
             </p>
           </li>
           <li>
             <header>
-              <h4><strong>新生层导师</strong></h4>
+              <h4>新生层导师</h4>
             </header>
             <p>
               作为新生层导师，联合四个层导师一起，分工合作，撰写策划书、购置物料、宣传活动、布置场地，成功举办了一场400余人的新生联谊晚会
@@ -285,30 +294,32 @@
           </li>
           <li>
             <header>
-              <h4><strong>学生党支部组宣委员</strong></h4>
+              <h4>学生党支部组宣委员</h4>
             </header>
-            <p>负责支部日常会议活动的记录，管理支部内党团员信息</p>
+            <p>作为党员干部负责支部日常会议活动的记录，管理支部内党团员信息</p>
           </li>
           <li>
             <header>
-              <h4><strong>班级组宣委员</strong></h4>
+              <h4>班级组宣委员</h4>
             </header>
             <p>
               负责班级每学年四次的二课活动的策划、组织，自行筹办了如外出参观党史馆、毅行、做陶艺等等活动
             </p>
           </li>
-        </ul>
+        </ol>
       </section>
+      <div class="split-line"></div>
       <section class="certificate">
-        <h3>证书/奖项</h3>
+        <h2>证书/奖项</h2>
         <ul>
-          <li>PAT乙级（浙江大学计算机程序设计能力考试）</li>
           <li>大学英语六级</li>
+          <li>PAT乙级（浙江大学计算机程序设计能力考试）</li>
           <li>C语言二级</li>
-          <li>社会工作优秀奖学金（两次）</li>
-          <li>优秀学生干部（两次）</li>
-          <li>文体一等奖学金</li>
+          <li>社会工作优秀奖学金</li>
+          <li>优秀学生干部</li>
           <li>优秀团干部、优秀团员</li>
+          <li>文体一等奖学金</li>
+          <li>校园十佳歌手</li>
         </ul>
       </section>
     </article>
