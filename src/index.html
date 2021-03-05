@@ -17,10 +17,6 @@
         page-break-before: always;
         margin-top: 30px;
       }
-
-      article {
-        padding: 2em;
-      }
     </style>
     <style>
       @media (max-width: 500px) {
@@ -88,9 +84,11 @@
               <h4>个推</h4>
             </header>
             <ul>
-              <li>参与公司标签平台项目的开发，与后端、测试、UI、产品对接，在理解业务的基础上，进行功能的开发和bug修复，参与五个迭代
+              <li>
+                参与公司标签平台项目的开发，与后端、测试、UI、产品对接，在理解业务的基础上，进行功能的开发和bug修复，参与五个迭代
               </li>
-              <li>积极遵守组内代码规范、格式规范、git提交规范，撰写结构化、易维护、可拓展的代码，并能够持续跟进优化
+              <li>
+                积极遵守组内代码规范、格式规范、git提交规范，撰写结构化、易维护、可拓展的代码，并能够持续跟进优化
               </li>
               <li>在组内完成一次关于浏览器渲染原理的分享</li>
             </ul>
@@ -107,98 +105,91 @@
               <h4>数据智能标签平台（公司内部项目）</h4>
             </header>
             <p>
-              面向分析师的数据智能平台中的标签平台，通过对数据进行标签化的生产管理以及用户画像、
+              该项目通过对数据进行标签化的生产管理以及用户画像、
               数据洞察等手段，帮助企业发现问题、提高效益
             </p>
             <ul>
+              <li>负责项目中标签管理、用户群管理、用户群洞察相关模块的开发</li>
               <li>
-                抽象出通用业务组件如ecahrts图表渲染组件、可配置详情面板、
-                可配置信息栏、级联下拉框、简洁翻页器、日期选择器等等，作为高频出现的组件极大的提高了开发效率
+                抽象出通用业务组件如<strong
+                  >ecahrts图表渲染组件、条件查询分页列表、可配置信息面板、
+                  级联下拉框、简洁翻页器</strong
+                >等等，作为高频出现的组件极大的提高了开发效率
               </li>
               <li>
-                使用工厂模式维护一套echarts配置项，针对业务中高频用到的<strong>热力图、象形图、饼图、条形图、柱状图、折线柱形混合图表</strong>等图表配置项进行整理，
-                能够“一键”生成基础图表，便于<strong>图表定制、图表组合</strong>，同时实现了业务逻辑与样式分离，
-                解决了项目场景中多图表、toolTip定制化、多样化且与图表外部数据交杂的问题，提高了代码复用率
+                使用工厂模式针对业务中高频出现的图表配置项进行整合，
+                分离开样式和业务逻辑，便于图表的<strong>定制、组合</strong>，
+                解决了项目场景中图表多样化、数据信息定制化且与图表外部数据交杂的问题
               </li>
             </ul>
           </li>
           <li>
             <header>
-              <h4>iAccounts Vue3 版</h4>
-              <span>
-                <a
-                  href="https://github.com/Jarrett817/money-lover_vue3"
-                  target="_blank"
-                  >源码</a
-                >
-                <a
-                  href="https://modao.cc/app/70d1df3f41666d3c9917f6e233d472c5a1b4e3e5?simulator_type=outside_artboard&sticky"
-                  target="_blank"
-                  >原型</a
-                >
-              </span>
+              <h4>iAccounts记账本</h4>
             </header>
             <p>
-               一个基于 <strong>Vue3</strong> / <strong>VueRouter</strong> /
-              <strong>Vuex</strong> / <strong>Vite</strong> / <strong>Axios</strong> /
-              <strong>Vant UI</strong> /
-              <strong>TypeScript</strong> 的记账应用
+              一个具备记账、账单管理、记账标签管理及报表功能的记账本，使用Vue2、Vue3、React分别制作了一版，
+              借此熟悉框架的使用，感受不同框架的差异
             </p>
             <ul>
-              <li>将会具备记账、账单管理、标签管理及账单数据可视化功能</li>
               <li>
-              持续制作中
+                <span>
+                  Vue2版技术栈：<strong>Vue2</strong> /
+                  <strong>VueRouter</strong> / <strong>Vuex</strong> /
+                  <strong>TypeScript</strong>
+                </span>
+                <span>
+                  <a
+                    href="https://github.com/Jarrett817/money-lover"
+                    target="_blank"
+                    >源码</a
+                  >
+                  <a
+                    href="http://jarrett0817.gitee.io/money-lover-website"
+                    target="_blank"
+                    >预览</a
+                  >
+                </span>
               </li>
-            </ul>
-          </li>
-          <li>
-            <header>
-              <h4>iAccounts Vue2 版</h4>
-              <span>
-                <a
-                  href="https://github.com/Jarrett817/money-lover"
-                  target="_blank"
-                  >源码</a
-                >
-                <a
-                  href="http://jarrett0817.gitee.io/money-lover-website"
-                  target="_blank"
-                  >预览</a
-                >
-              </span>
-            </header>
-            <p>
-              使用 <strong>Vue2</strong> / <strong>VueRouter</strong> /
-              <strong>Vuex</strong> /
-              <strong>TypeScript</strong> 制作的版本
-            </p>
-            <ul>
-              <li>主要功能包括记账、标签管理、账单明细及图表概览</li>
+
               <li>
-              使用了vue基于类的API及vue的装饰器写法，并借助了eCharts展示每月收支情况
+                <span>
+                  React版技术栈：<strong>React</strong> /
+                  <strong>React Router</strong> /
+                  <strong>TypeScript</strong>
+                </span>
+                <span>
+                  <a
+                    href="https://github.com/Jarrett817/monry-lover-react"
+                    target="_blank"
+                    >源码</a
+                  >
+                  <a
+                    href="http://jarrett0817.gitee.io/money-lover-react-website"
+                    target="_blank"
+                    >预览</a
+                  >
+                </span>
               </li>
-            </ul>
-          </li>
-          <li>
-            <header>
-              <h4>iAccounts React 版</h4>
-              <span>
-                <a
-                  href="https://github.com/Jarrett817/monry-lover-react"
-                  target="_blank"
-                  >源码</a
-                >
-                <a
-                  href="http://jarrett0817.gitee.io/money-lover-react-website"
-                  target="_blank"
-                  >预览</a
-                >
-              </span>
-            </header>
-            <p>使用 <strong>React</strong> / <strong>React Router</strong> /
-              <strong>TypeScript</strong> 制作的版本</p>
-            <ul>
-              <li>使用了 State、Effect Hook 及自定义 Hook</p>
+              <li>
+                <span>
+                  Vue3版技术栈：<strong>Vue3</strong> /
+                  <strong>VueRouter</strong> / <strong>Vuex</strong> /
+                  <strong>Vite</strong> / <strong>Axios</strong> /
+                  <strong>Vant UI</strong> / <strong>TypeScript</strong>
+                </span>
+                <span>
+                  <a
+                    href="https://github.com/Jarrett817/money-lover_vue3"
+                    target="_blank"
+                    >源码</a
+                  >
+                  <a
+                    href="https://modao.cc/app/70d1df3f41666d3c9917f6e233d472c5a1b4e3e5?simulator_type=outside_artboard&sticky"
+                    target="_blank"
+                    >原型</a
+                  >
+                </span>
               </li>
             </ul>
           </li>
@@ -219,20 +210,42 @@
               </span>
             </header>
             <p>
-              使用 <strong>Vue3</strong> / <strong>TypeScript</strong> 的自制
-              UI 库
+              使用 <strong>Vue3</strong> / <strong>TypeScript</strong> 的自制 UI
+              库
             </p>
             <ul>
-              <li>目前实现了按钮、开关、弹出框、标签页、下拉菜单等基础组件
-              </li>
-              <li>使用了 vue3 的<strong> Composition API</strong
+              <li>目前实现了按钮、开关、弹出框、标签页、下拉菜单等基础组件</li>
+              <li>
+                使用了 vue3 的<strong> Composition API</strong
                 >，setup、onMounted、watchEffect、ref、computed等
               </li>
-              <li>自制了官网，对每个组件用例进行介绍和展示，官网适配PC及移动端
-              </li>
+              <li>自制了官网，对每个组件用例进行介绍和展示</li>
             </ul>
           </li>
-          
+          <li>
+            <header>
+              <h4>css画图</h4>
+              <span>
+                <a
+                  href="https://github.com/Jarrett817/madara-cat"
+                  target="_blank"
+                  >源码</a
+                >
+                <a href="http://jarrett0817.gitee.io/madara-cat" target="_blank"
+                  >预览</a
+                >
+              </span>
+            </header>
+            <ul>
+              <li>
+                使用js动态添加css展示出临摹画图的效果，具备调速、播放、暂停、重置的功能
+              </li>
+              <li>
+                使用webpack打包，并编写了可适配开发环境和生产环境的webpack配置文件
+              </li>
+              <li>使用媒体查询适配多种设备</li>
+            </ul>
+          </li>
         </ol>
       </section>
       <div class="split-line"></div>
@@ -242,24 +255,26 @@
         <div class="wrapper">
           <ul>
             <li>
-              熟悉页面制作技巧，能制作<strong>响应式页面</strong>且<strong>高度还原</strong>设计稿
+              熟悉页面制作技巧，能制作<strong>响应式页面</strong>，<strong>高度还原</strong>设计稿
             </li>
             <li>熟悉 <strong>ES6</strong>，包括 let / const / Promise 等</li>
-            <li>掌握 <strong> Vue / VueRouter / Vuex </strong>的基本使用</li>
+            <li>熟悉 <strong> Vue </strong> 及其<strong>响应式原理</strong></li>
+            <li>熟悉 <strong>Git</strong> 的使用及其提交规范</li>
             <li>
-              掌握 <strong>React / ReactRouter / Hooks API </strong>的基本使用
+              掌握 <strong>React </strong>及
+              <strong>Hooks API </strong>的基本使用
             </li>
-            <li>掌握 <strong>Git / GitHub</strong> 的使用</li>
+            <li>掌握浏览器基本工作原理和<strong>HTTP 协议</strong></li>
+            <li>掌握前后端分离开发的基本交互逻辑</li>
             <li>了解 <strong>TypeScript</strong> 的使用，并能够在项目中实践</li>
             <li>了解 <strong>Webpack </strong>的配置和使用</li>
-            <li>了解后端java语言及MySQL数据库的使用</li>
-            <li><strong> CET 6</strong> , 能够阅读英文文档</li>
+            <li><strong> CET 6</strong> , 能够阅读英文文档、浏览英文网站</li>
           </ul>
         </div>
       </section>
       <div class="split-line"></div>
 
-      <section class="openSource ">
+      <section class="openSource">
         <h2>开源项目</h2>
         <ol>
           <li>
@@ -278,35 +293,12 @@
                 >
               </span>
             </header>
-            <p>使用 <strong>jQuery</strong> 做的导航网站。</p>
+            <p>使用 <strong>jQuery</strong> 做的简易导航网站。</p>
             <p>
               实现了搜索栏跳转，及对网址的增删改操作，实现了键盘事件打开对应网址的功能。
             </p>
           </li>
-          <li>
-            <header>
-              <h4>css画图</h4>
-              <span>
-                <a
-                  href="https://github.com/Jarrett817/madara-cat"
-                  target="_blank"
-                  >源码</a
-                >
-                <a href="http://jarrett0817.gitee.io/madara-cat" target="_blank"
-                  >预览</a
-                >
-              </span>
-            </header>
-            <p>
-              使用js、css和<strong>webpack</strong>做的小作品，临摹出某动漫角色
-            </p>
-            <p>
-              实现了动态添加css并展示代码，具备调速、播放、暂停、重置的功能，并做了多端适配
-            </p>
-            <p>
-              使用webpack打包，并编写了可适配开发环境和生产环境的webpack配置文件
-            </p>
-          </li>
+
           <li>
             <header>
               <h4>旋转立方体</h4>
@@ -344,9 +336,7 @@
                 >
               </span>
             </header>
-            <p>
-              使用 <strong>css</strong> 制作的自行旋转展示的照片墙
-            </p>
+            <p>使用 <strong>css</strong> 制作的自行旋转展示的照片墙</p>
           </li>
         </ol>
       </section>
@@ -394,10 +384,8 @@
           <li>大学英语六级</li>
           <li>PAT乙级（浙江大学计算机程序设计能力考试）</li>
           <li>C语言二级</li>
-          <li>社会工作优秀奖学金</li>
-          <li>优秀学生干部</li>
-          <li>优秀团干部、优秀团员</li>
-          <li>文体一等奖学金</li>
+          <li>社会工作优秀奖学金、文体一等奖学金</li>
+          <li>优秀团干部、优秀学生干部、优秀团员</li>
           <li>校园十佳歌手</li>
         </ul>
       </section>
