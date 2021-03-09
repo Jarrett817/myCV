@@ -7,6 +7,7 @@
     <title>我的简历</title>
     <style media="print">body {
         margin: 0;
+        background: white;
       }
 
       .page2 {
@@ -41,15 +42,18 @@
           <img src="/photo.a2d58053.jpg" alt="">
         </div>
         <p>
+          基本信息：男 <span class="column-line">|</span>22岁
+          <span class="column-line">|</span>
+          应届本科 <span class="column-line">|</span>
+          中共党员
+        </p>
+        <p>
+          个人站点：
           <a href="https://github.com/Jarrett817" target="_blank">GitHub</a>
           <span class="column-line">|</span>
           <a href="https://www.yuque.com/jarrett-p3yai/kg62ge" target="_blank">语雀</a>
           <span class="column-line">|</span>
           <a href="https://juejin.cn/user/3940246036687774/posts" target="_blank">掘金</a>
-        </p>
-        <p>
-          浙江大学城市学院 <span class="column-line">|</span> 本科
-          <span class="column-line">|</span> 通信工程
         </p>
         <p>
           电话：<a href="tel:13516724981">135-1672-4981</a>
@@ -69,10 +73,11 @@
             </header>
             <ul>
               <li>
-                参与公司标签平台项目的开发，与后端、测试、UI、产品对接，在理解业务的基础上，进行功能的开发和bug修复，参与五个迭代
+                参与公司数据智能平台项目的开发，与后端、测试、UI、产品对接，在理解业务的基础上，
+                进行功能的开发和bug修复和产品体验的优化，参与五个迭代
               </li>
               <li>
-                积极遵守组内代码规范、格式规范、git提交规范，撰写结构化、易维护、可拓展的代码，并能够持续跟进优化
+                积极学习、遵守组内代码规范、格式规范、git提交规范，撰写结构化、易维护、可拓展的代码，并持续跟进优化
               </li>
               <li>在组内完成一次关于浏览器渲染原理的分享</li>
             </ul>
@@ -86,22 +91,32 @@
         <ol>
           <li>
             <header>
-              <h4>数据智能标签平台（公司内部项目）</h4>
+              <h4>数据智能标签平台（公司项目）</h4>
             </header>
             <p>
               该项目通过对数据进行标签化的生产管理以及用户画像、
               数据洞察等手段，帮助企业发现问题、提高效益
             </p>
             <ul>
-              <li>负责项目中标签管理、用户群管理、用户群洞察相关模块的开发</li>
               <li>
-                抽象出通用业务组件如<strong>ecahrts图表渲染组件、条件查询分页列表、可配置信息面板、
-                  级联下拉框、简洁翻页器</strong>等等，作为高频出现的组件极大的提高了开发效率
+                主要技术栈为 <strong>Vue2</strong> /<strong> VueRouter</strong>
+                / <strong>Vuex </strong>/<strong> Element UI </strong>/<strong>
+                  Echarts</strong>
               </li>
               <li>
-                使用工厂模式针对业务中高频出现的图表配置项进行整合，
-                分离开样式和业务逻辑，便于图表的<strong>定制、组合</strong>，
-                解决了项目场景中图表多样化、数据信息定制化且与图表外部数据交杂的问题
+                负责项目中相关管理模块子页面的功能开发，针对产品细节主动与后端、UI、产品沟通出解决方案，
+                确保通过验收、测试，使产品迭代顺利上线
+              </li>
+              <li>
+                开发过程中抽离出通用业务组件如
+                <strong>ecahrts图表渲染组件、条件查询分页列表、可配置信息面板、
+                  级联下拉框、简洁翻页器</strong>
+                等等，作为高频出现的组件极大的提高了开发效率
+              </li>
+              <li>
+                使用抽象工厂模式针对业务中高频出现的图表配置项进行整合，
+                便于图表的 <strong>定制、扩展</strong>，提高代码复用率，
+                解决项目场景中图表多样化、数据信息定制化且与图表外部数据交杂的问题
               </li>
             </ul>
           </li>
@@ -228,7 +243,7 @@
                 <a href="http://jarrett0817.gitee.io/seeker-navigation/" target="_blank">预览</a>
               </span>
             </header>
-            <p>使用 <strong>jQuery</strong> 做的简易导航网站。</p>
+            <p>使用 <strong>jQuery</strong> 做的简易导航网站</p>
             <p>
               实现了搜索栏跳转，及对网址的增删改操作，实现了键盘事件打开对应网址的功能。
             </p>
@@ -243,9 +258,9 @@
               </span>
             </header>
             <p>
-              使用 <strong>js </strong> 和 <strong>css</strong> 做的一个小作品
+              使用 <strong>js </strong> 和
+              <strong>css</strong> 做的一个可鼠标拖动/手指滑动的立方体
             </p>
-            <p>可在pc或移动端使用，鼠标拖动/手指滑动可转动立方体</p>
           </li>
           <li>
             <header>
@@ -258,6 +273,14 @@
             <p>使用 <strong>css</strong> 制作的自行旋转展示的照片墙</p>
           </li>
         </ol>
+      </section>
+      <div class="split-line"></div>
+      <section class="education">
+        <h2>教育经历</h2>
+        <p>
+          浙江大学城市学院 <span class="column-line">|</span> 本科
+          <span class="column-line">|</span> 通信工程
+        </p>
       </section>
       <div class="split-line"></div>
 
@@ -301,8 +324,7 @@
         <h2>证书/奖项</h2>
         <ul>
           <li>大学英语六级</li>
-          <li>PAT乙级（浙江大学计算机程序设计能力考试）</li>
-          <li>C语言二级</li>
+          <li>PAT乙级（浙江大学计算机程序设计能力考试）、C语言二级</li>
           <li>社会工作优秀奖学金、文体一等奖学金</li>
           <li>优秀团干部、优秀学生干部、优秀团员</li>
           <li>校园十佳歌手</li>
