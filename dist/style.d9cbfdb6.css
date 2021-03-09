@@ -1,9 +1,6 @@
 .certificate > ul > li {
     list-style: disc inside;
 }
-.education > p {
-}
-
 .others > ul > li {
     list-style: disc inside;
 }
@@ -167,6 +164,12 @@ strong {
   width: 100%;
   margin-top: 24px;
   background: #016866;
+}
+
+.education > p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .internExperience > ol {
