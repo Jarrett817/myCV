@@ -2,6 +2,35 @@
 # yarn lockfile v1
 
 
+"@parcel/plugin@2.0.0-beta.2":
+  "integrity" "sha1-eN4HJcnfsBDMv5L+ObGq+pYGdeU="
+  "resolved" "http://192.168.10.223:7001/@parcel/plugin/download/@parcel/plugin-2.0.0-beta.2.tgz"
+  "version" "2.0.0-beta.2"
+  dependencies:
+    "@parcel/types" "2.0.0-beta.2"
+
+"@parcel/source-map@2.0.0-alpha.4.21":
+  "integrity" "sha1-YI83/v4Fuh2KhSfKDzqEh1YNRpU="
+  "resolved" "http://192.168.10.223:7001/@parcel/source-map/download/@parcel/source-map-2.0.0-alpha.4.21.tgz"
+  "version" "2.0.0-alpha.4.21"
+  dependencies:
+    "node-addon-api" "^3.0.0"
+    "node-gyp-build" "^4.2.3"
+
+"@parcel/transformer-sass@^2.0.0-beta.2":
+  "integrity" "sha1-lKCvw3orL+duK+VMwzHCdWkYsls="
+  "resolved" "http://192.168.10.223:7001/@parcel/transformer-sass/download/@parcel/transformer-sass-2.0.0-beta.2.tgz"
+  "version" "2.0.0-beta.2"
+  dependencies:
+    "@parcel/plugin" "2.0.0-beta.2"
+    "@parcel/source-map" "2.0.0-alpha.4.21"
+    "sass" "^1.32.4"
+
+"@parcel/types@2.0.0-beta.2":
+  "integrity" "sha1-OVMPiFpUbMyHWbqLlwRAu3qtwUY="
+  "resolved" "http://192.168.10.223:7001/@parcel/types/download/@parcel/types-2.0.0-beta.2.tgz"
+  "version" "2.0.0-beta.2"
+
 "@types/q@^1.5.1":
   "integrity" "sha1-FZJUFOCtLNdlv+9YhC9+JqesyyQ="
   "resolved" "https://registry.npm.taobao.org/@types/q/download/@types/q-1.5.4.tgz?cache=0&sync_timestamp=1596841124886&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fq%2Fdownload%2F%40types%2Fq-1.5.4.tgz"
@@ -111,7 +140,6 @@
   dependencies:
     "anymatch" "~3.1.1"
     "braces" "~3.0.2"
-    "fsevents" "~2.3.1"
     "glob-parent" "~5.1.0"
     "is-binary-path" "~2.1.0"
     "is-glob" "~4.0.1"
@@ -633,6 +661,16 @@
   dependencies:
     "minimist" "^1.2.5"
 
+"node-addon-api@^3.0.0":
+  "integrity" "sha1-gTJeCiEXeJwBKNq2Xn448HzroWE="
+  "resolved" "http://192.168.10.223:7001/node-addon-api/download/node-addon-api-3.2.1.tgz"
+  "version" "3.2.1"
+
+"node-gyp-build@^4.2.3":
+  "integrity" "sha1-DFLky/VLvSi3CYIO97ajwtYgkFU="
+  "resolved" "http://192.168.10.223:7001/node-gyp-build/download/node-gyp-build-4.6.0.tgz"
+  "version" "4.6.0"
+
 "node-releases@^1.1.61":
   "integrity" "sha1-cHsPypzk4ReDYSukovy6CQR68W4="
   "resolved" "https://registry.npm.taobao.org/node-releases/download/node-releases-1.1.61.tgz?cache=0&sync_timestamp=1599612937612&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnode-releases%2Fdownload%2Fnode-releases-1.1.61.tgz"
@@ -1018,7 +1056,7 @@
   "resolved" "https://registry.npm.taobao.org/rgba-regex/download/rgba-regex-1.0.0.tgz"
   "version" "1.0.0"
 
-"sass@^1.32.8":
+"sass@^1.32.4", "sass@^1.32.8":
   "integrity" "sha1-8WqavY3FMK3Yg05QaHiigIwDe9w="
   "resolved" "https://registry.npm.taobao.org/sass/download/sass-1.32.8.tgz?cache=0&sync_timestamp=1613689023660&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsass%2Fdownload%2Fsass-1.32.8.tgz"
   "version" "1.32.8"
